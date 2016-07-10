@@ -18,7 +18,7 @@ namespace Saltarelle.Utils
 		}
 
 		public static string GetMemberName<T, TMemberType>(
-			Expression<Func<T, TMemberType>> expression)
+			this Expression<Func<T, TMemberType>> expression)
 		{
 			if (expression == null)
 			{
@@ -133,7 +133,7 @@ namespace Saltarelle.Utils
 		/// </param>
 		public static void HookSetterOfProperty<TObjectType, TMemberType>(this TObjectType obj, Expression<Func<TObjectType, TMemberType>> propertySelector, Action<TMemberType> onSetProperty)
 		{
-			var propertyName = GetMemberName(propertySelector);
+			var propertyName = propertySelector.GetMemberName();
 			var firstChar = propertyName[0].ToString().ToLower();
 			if (propertyName.Length > 1)
 				propertyName = firstChar + propertyName.Substring(1);
