@@ -1,5 +1,5 @@
 # Saltarelle.Utils
-shared library for all Tommmi projects which uses Saltarelle
+Shared library for all Tommmi projects which uses Saltarelle
 
 ## Contents
 
