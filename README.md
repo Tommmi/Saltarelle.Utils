@@ -1,6 +1,9 @@
 # Saltarelle.Utils
 shared library for all Tommmi projects which uses Saltarelle
 
+## History
+see [history](documentation/history.md)
+
 ## Contents
 
 ### Classes
