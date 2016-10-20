@@ -1,9 +1,10 @@
-﻿::
+::
 
 :: %1: project dir
 :: %2: debug release
+:: %3: solution dir
 
-"%1..\packages\Microsoft Ajax Minifier\ajaxmin.exe" "%1bin\%2\Saltarelle.Utils.js" -out "%1bin\%2\Saltarelle.Utils.min.js" -clobber
+"%1..\external\Microsoft Ajax Minifier\ajaxmin.exe" "%1bin\%2\Saltarelle.Utils.js" -out "%1bin\%2\Saltarelle.Utils.min.js" -clobber
 
 ::**********************************************************
 :: copy output to ..\..\lib

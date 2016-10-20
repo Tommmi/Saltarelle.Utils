@@ -10,7 +10,7 @@ see [history](documentation/history.md)
 | Class | Description   |
 | ----- | ----------    |
 | jQueryEventMouseWheel | MouseWheelEvent <br>Requirements:<br>- jquery.js<br>- jquery.mousewheel.js |
-|  |  |
+| SmartDeviceImage | experimental |
 |  |  |
 
 
