@@ -11,6 +11,7 @@ see [history](documentation/history.md)
 | ----- | ----------    |
 | jQueryEventMouseWheel | MouseWheelEvent <br>Requirements:<br>- jquery.js<br>- jquery.mousewheel.js |
 | SmartDeviceImage | experimental |
+| IsDirtyCheck | automatically checks, if form is dirty or not.<br>Saltarelle.Utils.IsDirtyCheck.init() initializes watching.<br>attributes "enableOnFormIsDirty" and "disableOnFormIsDirty" applied to a button<br>will automatically enable the button when sth changed. |
 |  |  |
 
 

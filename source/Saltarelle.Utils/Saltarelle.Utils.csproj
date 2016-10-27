@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DateTimeExtension.cs" />
+    <Compile Include="IsDirtyCheck.cs" />
     <Compile Include="jQueryEventMouseWheel.cs" />
     <Compile Include="SmartdeviceImage.cs" />
     <Compile Include="StaticReflection.cs" />
