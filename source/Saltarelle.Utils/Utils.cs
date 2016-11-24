@@ -113,5 +113,15 @@ namespace Saltarelle.Utils
 			var propertyName = scope.GetMemberName(propertySelector);
 			scope.WatchCollection(propertyName, handler);
 		}
+
+		/// <summary>
+		/// jQuery.Select("#myModalDlg").ModalShow();
+		/// is like $("#myModalDlg").modal("show");
+		/// </summary>
+		/// <param name="node"></param>
+		[InlineCode("{node}.modal('show')")]
+		public static void ModalShow(this jQueryObject node)
+		{
+		}
 	}
 }

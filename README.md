@@ -23,5 +23,6 @@ see [history](documentation/history.md)
 | T | GetMemberName<T, TMemberType>(Func<T, TMemberType> getPropertyName) | gets name of selected property |
 | Expression&lt;Func&lt;T, TMemberType&gt;&gt; | GetMemberName() | gets name of selected property | 
 | TObjectType | HookSetterOfProperty(Func&lt;TObjectType, TMemberType&gt; propertySelector, Action&lt;TMemberType&gt; onSetProperty) | Hooks into the setter of a property. If the referenced member is a field, the method converts the field into property. |
+| jQueryObject | ModalShow | $("#myModalDlg").modal("show") |
 |  |  |  |
 
